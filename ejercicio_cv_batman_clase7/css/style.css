@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+/*inicio del header*/
+    #cabecera {
+        height: 189px;
+        background-color: #E5E5E5;
+        position: relative;
+    }
+        .logo {
+            box-sizing: border-box;
+            position: absolute;
+            height: 147px;
+            width: 100px;
+            top: 21px;
+            left: 630px
+        }
+    #barra-de-encabezado {
+            position: relative;
+            height: 60px;
+            background-color: #C4C4C4;
+            margin-bottom: 104px;
+    }
+        #estilos-curriculum{
+            position: absolute;
+            color: #005677;
+            font-size: 35px;
+            font-weight: bold;
+            top: 10px;
+            left: 230px;
+        }
+/*inicio del main*/
+        h2 {
+            background-color: #C4C4C4;
+            width: 1041px;
+            height: 30px;
+            box-sizing: border-box;
+
+            color:#005677;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 16,94px;
+            padding: 6px 9px;
+            margin-left: 225px;
+            margin-top: 0px;
+        }
+        li {
+            line-height: 23px;
+            font-size: 15px;
+
+            margin-left: 225px;
+        }
+        article {
+            line-height: 5px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 275px;
+        }
+/*inicio del footer*/
+    footer {
+        box-sizing: border-box; 
+        position: relative;
+        height: 37px;
+        background-color: #005677;
+        margin-top: 176px;
+    }
+        #contacto {
+            position: absolute;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            
+            left: 540px;
+            top: 8px;
+        }
+        .redes {
+            position: absolute;
+            top: 8px;
+            left: 720px;
+        }
+        .redes2 {
+            position:absolute;
+            top: 8px;
+            left: 760px;
+        }
