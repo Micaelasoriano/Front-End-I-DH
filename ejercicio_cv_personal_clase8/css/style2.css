@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('../img/fondoceleste.jpg');
+}
+/*comienzo del header*/
+    h1 {
+        background-color: rgb(255, 224, 49);
+        height: 40px;
+        width: 700px;
+        border-radius: 20px;
+        border: 6px solid black;
+        color: black;
+
+        margin: 40px 30px;
+        padding-left: 30px;
+    }
+/*comienzo del main*/
+    main {
+        box-sizing: border-box;
+        position: relative;  
+    }
+        img {
+        position: absolute;
+        height: 460px;
+        width: 460px;
+        left: 70px;
+        border-radius: 20px;
+        border: 6px solid black;
+        top: -30px;
+        }
+        ul {
+        position: absolute;
+        background-color: whitesmoke;
+        border-radius: 20px;
+        border: 6px solid black;
+        height: 460px;
+        width: 700px;
+        left: 560px;
+        top: -30px;  
+        
+        }
+            li {
+            line-height: 22px;
+            font-weight: bold;
+            color: #005677;
+            text-align: justify; 
+
+            padding: 17px 40px;
+            
+            }

@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(255, 224, 49);
+    background-size: 900px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+/*inicio del header*/
+    nav {
+        box-sizing: border-box;
+        position: relative;
+        background-color: #1685b1;
+        height: 36px;
+    }
+        #optionbar {
+            position: absolute;
+            color: white;
+            font-size: 18px;
+            left: 1250px;
+            padding-top: 8px;
+        }
+    #cabecera {
+        height: 189px;
+        background-image: url('../img/fondoceleste.jpg');
+        position: relative;
+    }
+        .logo {
+            box-sizing: border-box;
+            position: absolute;
+            border: 2px solid black;
+            border-radius: 80px;
+            height: 180px;
+            width: 180px;
+            top: 5px;
+            left: 630px
+        }
+    #barra-de-encabezado {
+            position: relative;
+            height: 80px;
+            background-color: whitesmoke;
+            margin-bottom: 90px;
+    }
+        #estilos-curriculum{
+            position: absolute;
+            color: black;
+            font-size: 35px;
+            font-weight: 900;
+            top: 20px;
+            left: 180px;
+        }
+/*inicio del main*/
+        h2 {
+            box-sizing: border-box;
+            background-image: url('../img/fondoceleste.jpg');
+            width: 1041px;
+            height: 28px;
+            box-sizing: border-box;
+
+            color: black;
+            border: 2px solid whitesmoke;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 900;
+            line-height: 16,94px;
+            padding: 4px 9px;
+            margin-left: 170px;
+        }
+        li {
+            line-height: 30px;
+            font-size: 15px;
+
+            margin-left: 225px;
+        }
+        article {
+            line-height: 5px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 275px;
+        }
+/*inicio del footer*/
+    footer {
+        box-sizing: border-box; 
+        position: relative;
+        height: 37px;
+        background-color: #1685b1;
+        margin-top: 176px;
+    }
+        #contacto {
+            position: absolute;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            
+            left: 540px;
+            top: 8px;
+        }
+        .redes {
+            position: absolute;
+            top: 8px;
+            left: 680px;
+        }
+        .redes2 {
+            position:absolute;
+            top: 8px;
+            left: 720px;
+        }
