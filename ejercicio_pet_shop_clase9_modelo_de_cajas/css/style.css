@@ -1,0 +1,315 @@
+body {
+    font-family: roboto;
+    margin:0%
+}
+
+/* comienza el header*/
+
+    #barra-de-navegacion1 {
+        position: relative;
+        background-color: black;
+        height: 20px;
+        box-sizing: border-box;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+        #ofertas {
+            position: absolute;
+            color: blanchedalmond;
+            left: 100px;
+        }
+        #idioma {
+            position: absolute;
+            color:blanchedalmond;
+            left: 1170px;
+        }
+        #moneda {
+            position: absolute;
+            color:blanchedalmond;
+            left: 1230px;
+        }
+        #redes {
+            position: absolute;
+            left: 1280px;
+            top: 2px;
+            height: 17px;
+        }
+        #redes2 {
+            position: absolute;
+            left: 1315px;
+            top: 2px;
+            width: 17px;
+            height: 17px;
+        }
+    #barra-de-navegacion2 {
+        position: relative;
+        background-color:#F0A83E;
+        height: 70px;
+        box-sizing: border-box;
+        color: blanchedalmond;
+    }
+        #logo {
+            position: absolute;
+            top: 20px;
+            left: 80px;
+            bottom: 20px;
+        }
+        #iconos {
+            position: absolute;
+            top: 20px;
+            left: 980px;
+        }
+        i{
+            padding-right: 10px;
+        }
+
+/*comienza el main*/
+
+    /*barra de navegación*/
+    #banner {
+        position: relative;
+        background-image: url('../img/bowl-and-pet-background\ 1.png');   
+        background-size: 1350px 473px;
+        height: 409px;
+        box-sizing: border-box;
+    }    
+        #rectangulo {
+            position: absolute;
+            width: 365px;
+            height: 54px;
+            background-color:blanchedalmond;
+            top: 170px;
+            left: 900px;
+
+            font-size: 30px;
+            line-height: 50px;
+            text-align: center;
+        }
+        #comederos {
+            width: 190px;
+            height: 19px;
+            position: absolute;
+            top: 240px;
+            left: 990px;
+
+            font-size: 16px;
+        }
+        #botón-comederos {
+            width: 141px;
+            height: 49px;
+            background-color: #F0A83E;
+            box-sizing:border-box;
+            border-radius: 5px;
+            position: absolute;
+            top: 280px;
+            left: 1010px;
+
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding-top: 15px;
+        }
+
+    /*section destacados*/  
+    #destacados {
+        position: relative;
+        height: 550px;
+        box-sizing: border-box;
+    }
+        .huellita{
+            position: absolute;
+            top: 23px;
+            left: 640px;
+        }
+        h1 {
+            position: absolute;
+            font-size: 40px;
+            margin: 0px;
+            top: 96px;
+            left: 480px;
+        }
+        #menues {
+            position: absolute;
+            color:#666666;
+            top: 163px;
+            left: 540px;
+        }
+            .menu {
+                padding-right: 30px;
+            }
+        #juguetes{
+            position: absolute;
+            top: 230px;
+            left: 260px;
+        }
+
+    /*section contacto*/
+
+    #contacto {
+        position: relative;
+        height: 350px;
+    }
+        h2 {
+            position: absolute;
+            font-size:25px;
+            color: #3C2313;
+            top: 78px;
+            left: 600px;
+        }
+        #container-contact{
+            position: absolute;
+            left: 500px;
+            top: 137px;
+        }
+            .datos-contacto {
+                box-sizing: border-box;
+                background-color: #3C2313;
+                width: 340px;
+                height: 40px;
+                border-radius: 15px;
+
+                color: white;
+                font-size: 9px;
+
+                margin-top: 10px;
+                padding: 15px 14px;    
+            }
+        #botones1 {
+            position: absolute;
+            left: 560px;
+            top: 340px;
+        }
+            button {
+                box-sizing: border-box;
+                background-color:#8A8787;
+                width: 110px;
+                height: 34px;
+                border-radius:15px;
+                border-style: none;
+            
+                color: white;
+                font-size: 16px;
+                padding: 7px 22x;
+            }
+            #sent {
+                background-color: #F0A83E;
+            }
+/*comienza el footer*/
+
+    /*section suscribe*/
+    #suscribe {
+        position: relative;
+        box-sizing: border-box;
+        background-color:#F0A83E;
+        background-size: 60px;
+        margin-top: 75px;
+        height: 75px;
+    }
+        .hotmail {
+            position: absolute;
+            top: 24px;
+            left: 25px;
+        }
+        .novedades {
+            position: absolute;
+
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            top: 22px;
+            left: 75px;
+        }
+        .correo {
+            position: absolute;
+            background-color: white;
+            box-sizing: border-box;
+            border-radius: 15px;
+            height: 40px;
+            width: 280px;
+            top: 19px;
+            left: 780px;
+            
+            font-size: 9px;
+            font-weight: bold;
+            color: #A0A0A0;
+            padding: 14px 10px;
+        }
+        .suscript {
+            position: absolute;
+            background-color: #3C2313;
+            box-sizing: border-box;
+            border-radius: 15px;
+            height: 38px;
+            width: 75px;
+            top: 21px;
+            left: 1080px;
+
+            font-size: 9px;
+            font-weight: bold;
+            color: white;
+            padding: 12px;
+        }
+
+    /*section datos de negocio*/
+    #datos-negocio {
+        box-sizing: border-box;
+        background-color: #3C2313;
+        height: 284px;
+        color: white;
+        position: relative;
+    }
+        .iconos {
+            position:absolute;
+            top: 20px;
+            left: 74px;
+        }
+        .ubicacion {
+            position: absolute;
+            top: 23px;
+            left: 161px;
+        }
+            .datos-title {
+            color: White;
+            font-size: 20px;
+            font-weight: bold;
+            }
+            .datos-sub {
+            color:#8A8787;
+            font-size: 10px;
+            font-weight: bold;
+            }
+        .iconos2 { 
+            position:absolute;
+            top: 106px;
+            left: 74px;
+    }
+        .teléfono {
+            position: absolute;
+            top: 110px; 
+            left: 161px;
+        } 
+        .iconos3 {
+            position:absolute;
+            top: 195px;
+            left: 74px; 
+        }
+        .mail {
+            position: absolute;
+            top: 195px; 
+            left: 161px;
+        }
+    .logo2  {
+        position: absolute;
+        left: 960px;
+        top: 140px;
+    }
+
+    /*fin section datos de negocio*/
+    #derechos {
+        background-color: black;
+        background-size: 20px;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
