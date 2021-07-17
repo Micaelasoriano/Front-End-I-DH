@@ -1,0 +1,135 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+/*comienzo del header*/
+    .encabezado1 {
+        background-color: #1CD1B0;
+        height: 38px;
+        box-sizing: border-box;
+
+        font-size: 15px;
+        padding: 10px;
+    }
+    .encabezado2 {
+        background-color:#00669F;
+        box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+        height: 101px;
+        box-sizing:border-box;
+
+        font-size: 40px;
+        padding: 28px;
+    }
+/*comienzo del main*/
+    /*section batman*/
+
+    .card1 {
+        position: relative;
+    }
+        .batman {
+            position: absolute;
+            top: 152px;
+            left: 32px;
+        }
+        .corazón {
+            position: absolute;
+            top: 167px;
+            left: 53px;
+        }
+        .perfil-batman {
+            position: absolute;
+            border-radius: 60px;
+            top: 278px;
+            left: 120px;
+            z-index: 1;
+    }
+    .card2 {
+        position: relative;
+        background-color: #F3F3F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 336px;
+        width: 300px;
+
+        top: 345px;
+        left: 33px;   
+    }
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: normal;
+            padding-top: 70px;
+        }
+        .description {
+            padding: 10px 17px 37px;
+        }
+        .botón {
+            position: absolute;
+            background-color: #00669F;
+            width: 128px;
+            height: 48px;
+            color: white;
+            padding: 12px 32px;
+
+            top: 260px;
+            left: 84px;
+        }
+    /*section harley quinn*/
+        .harley {
+            position: absolute;
+            top: 292px;
+            left: 362px;
+        }
+        .corazon3 {
+            position: absolute;
+            top: 303px;
+            left: 383px;
+        }
+        .perfil-harley {
+            position: absolute;
+            border-radius: 60px;
+            top: 421px;
+            left: 453px;
+            z-index: 1;
+        }
+        #card3 {
+            position: absolute;
+            top: 484px;
+            left: 362px; 
+        }
+    /*section batman 2 */
+        .batman2 {
+            position: absolute;
+            top: 292px;
+            left: 692px;
+        }
+        .corazón4 {
+            position: absolute;
+            top: 303px;
+            left: 713px;
+        }
+        .perfil-batman2 {
+            position: absolute;
+            border-radius: 60px;
+            top: 421px;
+            left: 781px;
+            z-index: 1;
+        }
+        #card4 {
+            position: absolute;
+            top: 484px;
+            left: 692px; 
+        }
+    .derechos {
+        position: absolute;
+        background-color: #00669F;
+        height: 51px;
+        width: 100%;
+        color: white;
+
+        padding: 16px;
+        top: 934px;
+
+    }
